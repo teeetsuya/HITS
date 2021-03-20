@@ -13,10 +13,58 @@
 
 ## pages and functions
 - page1 : TOP page
-  - tytle
+  - tytle : HITS! そのサンプル、状況どう？
   - Login
+    - email : 
+    - password :
   - singin
-  - temporary login
+  - temporary login 
+  - ?how to set it?
 - page2 : overview
+  - No. of row
+  - USER info : 
+    - 会社名
+  - PRODUCT info :
+    - 用途
+    - 製品
+  - SAMPLE info :
+    - 製品名
+  - PROCEED info :
+    - 更新日
+    - 記入者
+    - 状況確認予定
+  - NOTICE info
+    -　! appeares if someone comments on the theme
+  - CORRESPONDENTS
+    - 最近の反応　: Display the newest comments on the right hand side.     
 - page3 : input
+  - USER info : 
+    - 会社名※
+    - 担当者
+    - 部署
+    - 拠点
+    - 住所
+    - Tel
+    - Mail
+  - PRODUCT info :
+    - 用途※
+    - 製品※
+    - 単価
+    - 数量
+    - 数量単位
+    - 合計金額
+  - SAMPLE info :
+    - 製品名※
+    - 評価時期※
+    - 数量※
+    - 数量単位
+    - 形状
+    - 仕入額
+    - 販売額
+    - 評価額
+    - 評価項目
+  - PROCEED info :
+    - 更新日
+    - 記入者
+    - 状況確認予定
 - page4 : account setting
