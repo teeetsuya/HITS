@@ -1,6 +1,10 @@
 # service name : HITS
 - meaning : how is the situation
 - to manage shedule and evaluate condition of supplied samples by our team.
+- because current work needs lots of material samples which over 30 in a month.
+- it is hard to manage condition of each evaluation in customers.
+- each sales man manage the condition personaly.
+- there is no formats.
 
 # Schedule
 - concept : 2021/03/15
@@ -12,7 +16,7 @@
 - pre publish : 2021/04/17
 
 ## pages and functions
-- common design
+### common design
   - font :  
   - top border bar
     - background color : 
@@ -28,6 +32,17 @@
       - size :
   - whole page
     - background color :
+  - Discription :
+    - text color : 
+    - width :
+    - height :
+    - size :
+  - Alert
+    - *マークは必須項目です
+    - text color : 
+    - width :
+    - height :
+    - size :
   - item title :
     - text color : 
     - width :
@@ -58,13 +73,14 @@
     - width :
     - height :
     - size :
-- common functions
+### common functions
   - to TOP page
   - to INPUT page
   - to ACCOUNT page
   - to LOGOUT
   - to SEARCH
-- page : TOP
+
+## page : TOP
   - tytle : HITS! そのサンプル、状況どう？
   - Login : input and submit
     - email
@@ -80,7 +96,11 @@
     - width :
     - height :
     - size :
-- page5 : signin
+
+## page : signin
+  - Discription
+    - アカウント情報をご入力ください
+  - Alert (common)
   - First Name :
   - Last Name :
   - 姓 :
@@ -92,7 +112,13 @@
   - password (confirmation) :
     - chech integration
   - confirm : submit
-- page6 : signin confirmation
+
+## page : signin confirmation
+  - Discription :
+    - アカウント情報をご確認ください
+  - common function
+    - alert (common)
+      - when *mark uninput 
   - First Name :
   - Last Name :
   - 姓 :
@@ -102,7 +128,8 @@
   - password : *** 
     - show integrated number of * as input password 
   - confirm : submit
-- page : overview
+
+## page : overview
   - No. of row
   - USER info : 
     - 会社名
@@ -133,6 +160,9 @@
           - (function : expand)
       - function
         - create : input
+          - input area size :
+          - input area background :
+          - input area shape : 
         - read : on the other page
         - update : submit
           - text : SEND 
@@ -148,7 +178,10 @@
             - at first : click and delete 
         - expand image : 
           - at first : only show on 
-- page3 : input
+
+## page : input
+  - common function
+    - alert (common)
   - USER info : 
     - 会社名※
     - 担当者
@@ -189,7 +222,8 @@
     - 社外：その他
     - 情報共有履歴（番号・時期を更新）
   - IMAGE
-- page : View Page
+
+## page : View Page
   - Sample No.
     - text color :
     - text size : 
@@ -233,4 +267,5 @@
     - 社外：その他
     - 情報共有履歴（番号・時期を更新）
   - IMAGE
-- page : account setting
+
+## page : account setting
