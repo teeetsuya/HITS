@@ -28,31 +28,58 @@
       - size :
   - whole page
     - background color :
-  - text color item title :
-  - text color item :
-  - text color input :
-  - text color comment : = font color input
-  - text color comment @ :
-  - text color datetime :  
-- common functions
-  - common decoration
+  - item title :
     - text color : 
     - width :
     - height :
     - size :
+  - item :
+    - text color : 
+    - width :
+    - height :
+    - size :
+  - input :
+    - text color : 
+    - width :
+    - height :
+    - size :
+  - comment : = input
+    - text color : 
+    - width :
+    - height :
+    - size :
+  - comment @ :
+    - text color : 
+    - width :
+    - height :
+    - size :
+  - datetime :  
+    - text color : 
+    - width :
+    - height :
+    - size :
+- common functions
   - to TOP page
   - to INPUT page
   - to ACCOUNT page
   - to LOGOUT
   - to SEARCH
-- page1 : TOP
+- page : TOP
   - tytle : HITS! そのサンプル、状況どう？
   - Login : input and submit
     - email
     - password
   - signin : signin
+    - text color : 
+    - width :
+    - height :
+    - size :
   - temporary login 
     - ?how to set it?
+    - text color : 
+    - width :
+    - height :
+    - size :
 - page5 : signin
   - First Name :
   - Last Name :
@@ -75,7 +102,7 @@
   - password : *** 
     - show integrated number of * as input password 
   - confirm : submit
-- page2 : overview
+- page : overview
   - No. of row
   - USER info : 
     - 会社名
@@ -91,7 +118,36 @@
   - NOTICE info
     -　! appeares if someone comments on the theme
   - CORRESPONDENTS
-    - 最近の反応　: Display the newest comments on the right hand side.     
+    - to view : 最近の反応　: Display the newest comments on the right hand side.    
+    - to right or reply :
+      - design 
+        - text size :
+        - text color :
+        - background color :
+        - width :
+        - height :
+        - image :
+          - size :
+          - shape :
+          - border :
+          - (function : expand)
+      - function
+        - create : input
+        - read : on the other page
+        - update : submit
+          - text : SEND 
+          - text color :
+          - size :
+          - border :
+        - delete : 
+          - text : ×
+          - size :
+          - text color :
+          - border : none
+          - (function : option : delete or save)
+            - at first : click and delete 
+        - expand image : 
+          - at first : only show on 
 - page3 : input
   - USER info : 
     - 会社名※
