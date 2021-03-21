@@ -45,15 +45,36 @@
   - to ACCOUNT page
   - to LOGOUT
   - to SEARCH
-  - to 
-- page1 : TOP page
+- page1 : TOP
   - tytle : HITS! そのサンプル、状況どう？
-  - Login
-    - email : 
-    - password :
-  - singin
+  - Login : input and submit
+    - email
+    - password
+  - signin : signin
   - temporary login 
-  - ?how to set it?
+    - ?how to set it?
+- page5 : signin
+  - First Name :
+  - Last Name :
+  - 姓 :
+  - 名 :
+  - email :
+  - Tel :
+  - password :
+    - 8 or more alphabets + 1 or more upper case number + 1 or more lower case number 
+  - password (confirmation) :
+    - chech integration
+  - confirm : submit
+- page6 : signin confirmation
+  - First Name :
+  - Last Name :
+  - 姓 :
+  - 名 :
+  - email :
+  - Tel :
+  - password : *** 
+    - show integrated number of * as input password 
+  - confirm : submit
 - page2 : overview
   - No. of row
   - USER info : 
@@ -112,4 +133,48 @@
     - 社外：その他
     - 情報共有履歴（番号・時期を更新）
   - IMAGE
-- page4 : account setting
+- page : View Page
+  - Sample No.
+    - text color :
+    - text size : 
+  - USER info : 
+    - 会社名※
+    - 担当者
+    - 部署
+    - 拠点
+    - 住所
+    - Tel
+    - Mail
+  - PRODUCT info :
+    - 用途※
+    - 製品※
+    - 単価
+    - 通貨
+    - 数量
+    - 数量単位
+    - 合計金額　(自動計算)(通貨自動入力)
+  - SAMPLE info :
+    - 製品名※
+    - 評価時期※
+    - 数量※
+    - 数量単位
+    - 形状
+    - 仕入額
+    - 販売額
+    - 評価額
+  - PROCEED info :
+    - 更新日
+    - 記入者
+    - 更新予定
+    - 見込時期
+    - 確度
+  - RELATIONS
+    - チーム
+    - 社内
+    - 社内その他
+    - 社外：仕入先
+    - 社外：得意先
+    - 社外：その他
+    - 情報共有履歴（番号・時期を更新）
+  - IMAGE
+- page : account setting
