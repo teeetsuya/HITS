@@ -5,13 +5,47 @@
 # Schedule
 - concept : 2021/03/15
 - blueprint (basic fanctions) : 2021/03/15 ~ 2021/03/17
-- desing : 2021/03/15 ~ 2021/03/21
+- desing : 2021/03/15 ~ 2021/03/25
 - html/css : 2021/03/22 ~ 2021/03/25
 - php/database : 2021/03/25 ~ 2021/04/08
 - test : 2021/04/09 ~ 2021/04/16
 - pre publish : 2021/04/17
 
 ## pages and functions
+- common design
+  - font :  
+  - top border bar
+    - background color : 
+  - top page label
+    - logo
+      - image :
+      - width :
+      - height :
+    - service name
+      - width :
+      - height : 
+      - text color :
+      - size :
+  - whole page
+    - background color :
+  - text color item title :
+  - text color item :
+  - text color input :
+  - text color comment : = font color input
+  - text color comment @ :
+  - text color datetime :  
+- common functions
+  - common decoration
+    - text color : 
+    - width :
+    - height :
+    - size :
+  - to TOP page
+  - to INPUT page
+  - to ACCOUNT page
+  - to LOGOUT
+  - to SEARCH
+  - to 
 - page1 : TOP page
   - tytle : HITS! そのサンプル、状況どう？
   - Login
@@ -50,9 +84,10 @@
     - 用途※
     - 製品※
     - 単価
+    - 通貨
     - 数量
     - 数量単位
-    - 合計金額
+    - 合計金額　(自動計算)(通貨自動入力)
   - SAMPLE info :
     - 製品名※
     - 評価時期※
@@ -62,9 +97,19 @@
     - 仕入額
     - 販売額
     - 評価額
-    - 評価項目
   - PROCEED info :
     - 更新日
     - 記入者
-    - 状況確認予定
+    - 更新予定
+    - 見込時期
+    - 確度
+  - RELATIONS
+    - チーム
+    - 社内
+    - 社内その他
+    - 社外：仕入先
+    - 社外：得意先
+    - 社外：その他
+    - 情報共有履歴（番号・時期を更新）
+  - IMAGE
 - page4 : account setting
