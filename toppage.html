@@ -4,9 +4,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/toppage.css">
   <title>HITS! Top Page</title>
 </head>
-<body>
-  toppage
+<body class="before-login" id="wrap">
+  <header class="header">
+    <div class="header-hidden"></div>
+    <div class="manuBar">
+      <div class="logo">
+        <img src="/Applications/MAMP/htdocs/HITS!/HITS/images/Screen Shot 2021-03-21 at 20.45.20.png" alt="HITS!LOGO">
+      </div>
+      <div class="title">
+        <h1 class="service-name">HITS!</h1>
+      </div>
+    </div>
+  </header>
+  <div class="body">
+    <div class="input-or-signin">
+      <div class="user-name">
+        <label for="name">Name:</label><input type="text" id="name" name="name" required minlength="1" maxlength="144" size="10" value="name">
+      </div>
+      <div class="pass">
+        <label for="pass">Password:</label><input type="password" id="pass" name="pass" required minlength="8" maxlength="144">
+      </div>
+      <div class="login-submit">
+        <input type="submit" value="login">
+      </div>
+    </div>
+    <div class="top">
+      <div class="bracket-left">
+        <p class="bracket-left-1">HI</p>
+        <p class="bracket-left-2">TS!</p>
+      </div>
+      <div class="title-name">
+        <p>そのサンプル、状況どう？</p>
+      </div>
+      <div class="bracket-right">
+        <p class="bracket-right-1">How is the</p>
+        <p class="bracket-right-2">situation?</p>
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <small>Copyright &copy;HITS! All Rights Reserved.</small>
+  </div>
 </body>
 </html>
