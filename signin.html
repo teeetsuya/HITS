@@ -25,13 +25,102 @@
       <div class="title">
         <h1 class="service-name">HITS!</h1>
       </div>
-      <div class="exesting-account-picture">
-        <img src="@@@" alt="account-picture">
-      </div>
     </div>
   </header>
   <div class="body">
-    <p>add description</p>
+    <div class="signin-info">
+      <div class="page-top-guidence">
+        <p class="page-top-guidance-1">アカウント情報をご入力ください</p>
+        <p class="page-top-guidance-2">*マークは必須項目です</p>
+      </div>
+      <div class="signin-info">
+        <div class="signin-info-item">
+          <div class="signin-info-item-title">
+            <p>名前*</p>
+          </div>
+          <div class="signin-info-item-input">
+            <label for="last-name">姓:<br></label><input type="text" id="last-name" name="last-name" required minlength="1" maxlength="144" size="10">
+          </div>
+          <div class="signin-info-item-input">
+            <label for="first-name">名:<br></label><input type="text" id="first-name" name="first-name" required minlength="1" maxlength="144" size="10">
+          </div>
+        </div>
+
+        <div class="signin-info-item">
+          <div class="signin-info-item-title">
+            <p>ナマエ</p>
+          </div>
+          <div class="signin-info-item-input">
+            <label for="last-name-kana">セイ:<br></label><input type="text" id="last-name-kana" name="last-name-kana" required minlength="1" maxlength="144" size="10">
+          </div>
+          <div class="signin-info-item-input">
+            <label for="first-name-kana">メイ:<br></label><input type="text" id="first-name-kana" name="first-name-kana" required minlength="1" maxlength="144" size="10">
+          </div>
+        </div>
+
+        <div class="signin-info-item">
+          <div class="signin-info-item-title">
+            <p>NAME*</p>
+          </div>
+          <div class="signin-info-item-input">
+            <label for="last-name-eng">Last Name:<br></label><input type="text" id="last-name-eng" name="last-name-eng" required minlength="1" maxlength="144" size="10">
+          </div>
+          <div class="signin-info-item-input">
+            <label for="first-name-eng">First Name:<br></label><input type="text" id="first-name-eng" name="first-name-eng" required minlength="1" maxlength="144" size="10">
+          </div>
+        </div>
+
+        <div class="signin-info-item">
+          <div class="signin-info-item-title">
+            <p>EMAIL*</p>
+          </div>
+          <div class="signin-info-item-input">
+            <label for="email"></label><input type="email" id="email" name="email" required minlength="1" maxlength="144" size="10">
+          </div>
+        </div>
+
+        <div class="signin-info-item">
+          <div class="signin-info-item-title">
+            <p>TEL</p>
+          </div>
+          <div class="signin-info-item-input">
+            <label for="tel"></label><input type="tel" id="tel" name="tel" required minlength="1" maxlength="144" size="10">
+          </div>
+        </div>
+
+        <div class="signin-info-item">
+          <div class="signin-info-item-title">
+            <p>IMAGE</p>
+          </div>
+          <div class="signin-info-item-input">
+            <label for="image"></label><img src="@@@" alt="account-picture" id="account-picture">
+          </div>
+        </div>
+
+        <div class="signin-info-item">
+          <div class="signin-info-item-title">
+            <p>PASSWORD*</p>
+          </div>
+          <div class="signin-info-item-input">
+            <label for="pass"></label><input type="password" id="pass" name="pass" required minlength="1" maxlength="144" size="10">
+          </div>
+        </div>
+
+        <div class="signin-info-item">
+          <div class="signin-info-item-title">
+            <p>PASSWORD*<br>(confirm)</p>
+          </div>
+          <div class="signin-info-item-input">
+            <label for="pass-again"></label><input type="password" id="pass-again" name="pass-again" required minlength="1" maxlength="144" size="10">
+          </div>
+        </div>
+
+        <div class="submit-signin-info">
+          <input type="submit" value="SIGNIN">
+        </div>
+      </div>
+    </div>
+
   </div>
   <div class="bottom">
     <small>Copyright &copy;HITS! All Rights Reserved.</small>
