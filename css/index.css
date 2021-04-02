@@ -1,3 +1,9 @@
-wrap {
-  background-color: EBEBEB;
+#wrap {
+  background-color: #E2E2E2;
+  height: 10%;
+}
+
+#headerborder {
+  background-color: #4B62C3;
+  height: 10px;
 }
