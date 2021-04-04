@@ -5,30 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/index.css">
-  <title>Signin Confirmation</title>
+  <title>HITS! Signin Confirmation</title>
 </head>
-<body class="before-login" id="wrapper">
+<body id="wrapper">
   <header>
     <div id="headerborder"></div>
-    <div class="header-hidden"></div>
-    <div class="menuBar">
-      <div class="logo">
-        <img class="logo" src="images/logo&title.png" alt="HITS!LOGO">
-      </div>
+    <div class="header-hidden">
+      <ul class="header-hidden-info">
+        <li class="header-hidden-info-account">こんにちはアカウントさん</li>
+        <li class="header-hidden-info-logout"><a class="header-hidden-info-logout" href="@@@">logout</a></li>
+      </ul>
     </div>
-  </header>
-
-  <div class="middle-bar">
-  </div>
-  <header class="header">
-    <div class="header-hidden"></div>
-    <div class="manuBar">
-      <div class="logo">
-        <img src="/Applications/MAMP/htdocs/HITS!/HITS/images/Screen Shot 2021-03-21 at 20.45.20.png" alt="HITS!LOGO">
-      </div>
-      <div class="title">
-        <h1 class="service-name">HITS!</h1>
-      </div>
+    <div class="menuBar">
+        <img class="logo" src="images/logo&title.png" alt="HITS!LOGO">
     </div>
   </header>
   <div class="body">
@@ -37,74 +26,42 @@
         <p class="page-top-input-confirmation">入力内容をご確認ください</p>
       </div>
       <div class="signin-info">
-        <div class="signin-info-item">
-          <div class="signin-info-item-title">
-            <p>名前*</p>
-          </div>
-          <div class="signin-info-item-input">
-            <p>入力された姓を表示</p>
-          </div>
-          <div class="signin-info-item-input">
-            <p>入力された名を表示</p>
-          </div>
-        </div>
+        <dl class="signin-info-item">
+          <dt class="signin-info-item-title">名前*</dt>
+          <dd class="signin-info-item-input">入力された姓を表示</dd>
+          <dd class="signin-info-item-input">入力された名を表示</dd>
+        </dl>
 
-        <div class="signin-info-item">
-          <div class="signin-info-item-title">
-            <p>ナマエ</p>
-          </div>
-          <div class="signin-info-item-input">
-            <p>入力されたセイを表示</p>
-          </div>
-          <div class="signin-info-item-input">
-            <p>入力された名を表示</p>
-          </div>
-        </div>
+        <dl class="signin-info-item">
+          <dt class="signin-info-item-title">ナマエ</dt>
+          <dd class="signin-info-item-input">入力されたセイを表示</dd>
+          <dd class="signin-info-item-input">入力された名を表示</dd>
+        </dl>
 
-        <div class="signin-info-item">
-          <div class="signin-info-item-title">
-            <p>NAME*</p>
-          </div>
-          <div class="signin-info-item-input">
-            <p>入力されたLast Nameを表示</p>
-          </div>
-          <div class="signin-info-item-input">
-            <p>入力されたFirst Nameを表示</p>
-          </div>
-        </div>
+        <dl class="signin-info-item">
+          <dt class="signin-info-item-title">NAME*</dt>
+          <dd class="signin-info-item-input">入力されたLast Nameを表示</dd>
+          <dd class="signin-info-item-input">入力されたFirst Nameを表示</dd>
+        </dl>
 
-        <div class="signin-info-item">
-          <div class="signin-info-item-title">
-            <p>EMAIL*</p>
-          </div>
-          <div class="signin-info-item-input">
-            <p>入力されたメールアドレスを表示</p>
-          </div>
-        </div>
+        <dl class="signin-info-item">
+          <dt class="signin-info-item-title">EMAIL*</dt>
+          <dd class="signin-info-item-input">入力されたメールアドレスを表示</dd>
+        </dl>
 
-        <div class="signin-info-item">
-          <div class="signin-info-item-title">
-            <p>TEL</p>
-          </div>
-          <div class="signin-info-item-input">
-            <p>入力された電話番号を表示</p>
-          </div>
-        </div>
+        <dl class="signin-info-item">
+          <dt class="signin-info-item-title">TEL</dt>
+          <dd class="signin-info-item-input">入力された電話番号を表示</dd>
+        </dl>
 
-        <div class="signin-info-item">
-          <div class="signin-info-item-title">
-            <p>IMAGE</p>
-          </div>
-          <div class="signin-info-item-input">
-            <p>入力された画像を表示</p>
-          </div>
-        </div>
+        <dl class="signin-info-item">
+          <dt class="signin-info-item-title">IMAGE</dt>
+          <dd class="signin-info-item-input">入力された画像を表示</dd>
+        </dl>
 
-        <div class="get-back-bottun">
-          <input type="button" value="get-back">
-        </div>
-        <div class="submit-signin-info">
-          <input type="submit" value="SIGNIN">
+        <div class="buttons">
+          <input class="submit-signin-info" type="submit" value="Go Confirm">
+          <input class="get-back-button" type="button" value="Get Back">
         </div>
       </div>
     </div>
