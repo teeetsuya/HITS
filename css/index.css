@@ -2,6 +2,11 @@
   background-size: cover;
   background-color: #E2E2E2;
   min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  max-width: 250%;
 }
 
 #headerborder {
@@ -46,7 +51,7 @@
   float: right;
   text-decoration: none;
   clear: right;
-  margin-bottom: 0;
+  margin: 0;
   font-size: 10px;
 }
 
@@ -136,31 +141,55 @@ label {
   color: #011993;
 }
 
-.signin-info {
+.signin-info, .user-info {
   clear: left;
   margin: 2% 0 0 4%;
   min-height: 85vh;
   min-width: 80%;
 }
 
-.signin-info-item {
+.signin-info-item, .sample-info-item{
   clear: both;
   min-width: 70%;
   min-height: 6vh;
 }
 
-.signin-info-item-title {
+.signin-info-item-title, .sample-info-item-title{
   float: left;
   min-width: 100px;
 }
 
-.signin-info-item-input {
+.signin-info-item-input, .sample-info-item-input {
   float: left;
   margin-right: 5%;
 }
 
+.sample-info-item-input {
+  width: 100%;
+}
+
 .signin-info-item-input-textbox {
-  min-width: 40px;
+  min-width: 50px;
+  margin: 0 0 5px 0;
+}
+
+.sample-info-item-input-text {
+  width: 250px;
+}
+
+#proceed-update-date, #proceed-update-schedule, #proceed-estimated-shift-massproduction, #proceed-estimated-shift-massproduction, #relations-history-sharing-info {
+  width: 250px;
+}
+
+.sample-info-item-input-textbox {
+  min-width: 100px;
+  margin: 0 0 5px 0;
+}
+
+.sample-info-item-input-block {
+  float: left;
+  margin-left: 4vh;
+  min-width: 65px;
 }
 
 p {
@@ -172,14 +201,12 @@ p {
   width: 120px;
   float: right;
   margin-right: 3vw;
-
 }
 
 .submit-signin-info {
   width: 120px;
   float: right;
   margin-right: 3vw;
-
 }
 
 .buttons {
