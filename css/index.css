@@ -6,15 +6,13 @@
 
 #headerborder {
   background-color: #4B62C3;
-  min-height: 15px;
-  max-height: 8%;
+  height: 15px;
   /* float: left; */
 }
 
 .header-hidden {
   background-color: none;
-  min-height: 15px;
-  max-height: 5%;
+  height: 15px;
 }
 
 .menuBar {
@@ -23,12 +21,13 @@
   display: flex;
   /* justify-content: center; */
   align-items: center;
+  clear: both;
 }
 
 .logo {
   min-height: 40px;
   max-height: 13%;
-  min-width: 100px;
+  min-width: 200px;
   max-width: 35%;
   float: left;
   /* margin-left: 3%;
@@ -38,8 +37,56 @@
   filter: contrast(150%);
 }
 
+.header-hidden-info-account {
+  float: left;
+  margin-right: 10px;
+}
+
+.header-hidden-info {
+  float: right;
+  text-decoration: none;
+  clear: right;
+  margin-bottom: 0;
+  font-size: 10px;
+}
+
+.header-hidden-info-logout {
+  float: left;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
 .input-or-signin {
   float: right;
+  margin-right: 10px;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 1px;
+}
+
+label {
+  margin: 5px;
+  width: 80px;
+}
+
+.login-submit {
+  float: right;
+  margin-right: 1px;
+  padding: 0;
+}
+
+#signin-or-temporary-login {
+  float: right;
+  clear: right;
+  margin-top: 8px;
+  margin-right:13px;
+  text-align: right;
+}
+
+.signin-or-temporary-login {
+  text-decoration: none;
 }
 
 .title-box {
@@ -58,7 +105,8 @@
   filter: contrast(150%);
 }
 
-footer {
+.bottom {
+  font-size: 10px;
   width: 100%;
   background-color: #4B62C3;
   color: #fff;
@@ -66,7 +114,89 @@ footer {
   padding: 0;
   min-height: 10px;
   max-height: 7%;
-
   position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+}
+
+.page-top-guidence {
+  min-height: 3vh;
+  margin-bottom: 10px;
+}
+
+.page-top-guidence-1 {
+  float: left;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.page-top-guidence-2 {
+  float: left;
+  margin-top: 1%;
+  margin-left: 2%;
+  color: #011993;
+}
+
+.signin-info {
+  clear: left;
+  margin: 2% 0 0 4%;
+  min-height: 85vh;
+  min-width: 80%;
+}
+
+.signin-info-item {
+  clear: both;
+  min-width: 70%;
+  min-height: 6vh;
+}
+
+.signin-info-item-title {
+  float: left;
+  min-width: 100px;
+}
+
+.signin-info-item-input {
+  float: left;
+  margin-right: 5%;
+}
+
+.signin-info-item-input-textbox {
+  min-width: 40px;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 10px;
+}
+
+.get-back-button {
+  width: 120px;
+  float: right;
+  margin-right: 3vw;
+
+}
+
+.submit-signin-info {
+  width: 120px;
+  float: right;
+  margin-right: 3vw;
+
+}
+
+.buttons {
+  min-height: 8vh;
+  width: 80%;
+}
+
+.copy-right {
+  width: 100%;
+  font-size: 10px;
+  background-color: #4B62C3;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  clear: both;
+  min-height: 13px;
+  max-height: 7%;
+  position: relative;
   bottom: 0; /*下に固定*/
 }

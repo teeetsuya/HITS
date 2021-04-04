@@ -19,20 +19,36 @@
       <img class="logo" src="images/logo&title.png" alt="HITS!LOGO">
     </div>
   </header>
-    <div class="input-or-signin">
-      <div class="user-name">
-        <label for="account-name">Name:</label><input type="text" id="account-name" name="account-name" required minlength="1" maxlength="144" size="10">
-      </div>
-      <div class="pass">
-        <label for="pass">Password:</label><input type="password" id="pass" name="pass" required minlength="8" maxlength="144">
-      </div>
+    <form class="input-or-signin">
+      <ul>
+        <li class="user-name">
+        <label for="account-name">Name</label>
+        <input type="text" id="account-name" name="account-name" required minlength="1" maxlength="144">
+        </li>
+        <li class="pass">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" required minlength="8" maxlength="144">
+        </li>
+      </ul>
       <div class="login-submit">
-        <input type="submit" value="login">
+        <input type="submit" value="Login">
       </div>
+    </form>
+    <div id="signin-or-temporary-login">
+      <ul>
+        <li >
+          <a class="signin-or-temporary-login" href="http://@@@">Signin</a>
+        </li>
+        <li >
+          <a class="signin-or-temporary-login" href="http://@@@">Temporary Login</a>
+        </li>
+      </ul>
+
     </div>
     <div class="title-box">
       <img class="title" src="images/title.png" alt="title name">
     </div>
+    <div class="blank-block"></div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -45,8 +61,10 @@
 
   </body>
   <footer>
-    <div class="bottom">
-      <small>Copyright &copy;HITS! All Rights Reserved.</small>
+    <div class="footer-fixed">
+      <div class="bottom">
+        <small>Copyright &copy;HITS! All Rights Reserved.</small>
+      </div>
     </div>
   </footer>
   </html>

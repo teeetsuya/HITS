@@ -6,98 +6,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="css/index.css">
-  <title>Signin</title>
+  <title>HITS! Signin</title>
 </head>
 <body class="before-login" id="wrapper">
   <header>
     <div id="headerborder"></div>
-    <div class="header-hidden"></div>
-    <div class="manuBar">
-      <div class="logo">
-        <img class="logo" src="images/logo&title.png" alt="HITS!LOGO">
-      </div>
-      <div class="title">
-        <h1 class="service-name">HITS!</h1>
-      </div>
+    <div class="header-hidden">
+      <ul class="header-hidden-info">
+        <li class="header-hidden-info-account">こんにちはアカウントさん</li>
+        <li class="header-hidden-info-logout"><a class="header-hidden-info-logout" href="@@@">logout</a></li>
+      </ul>
     </div>
-  </header>
-  <div class="middle-bar">
-    <div class="show-exesting-account-name">
-      <p>こんにちはアカウントさん</p>
-    </div>
-    <div class="logout">
-      <a href="@@@">logout</a>
-    </div>
-  </div>
-  <header class="header">
-    <div class="header-hidden"></div>
     <div class="menuBar">
-      <div class="logo">
-        <img src="/Applications/MAMP/htdocs/HITS!/HITS/images/Screen Shot 2021-03-21 at 20.45.20.png" alt="HITS!LOGO">
-      </div>
-      <div class="title">
-        <h1 class="service-name">HITS!</h1>
-      </div>
+        <img class="logo" src="images/logo&title.png" alt="HITS!LOGO">
     </div>
   </header>
   <div class="body">
     <form action="###" method="POST" id="signin-info">
       <div class="page-top-guidence">
-        <p class="page-top-guidance-1">アカウント情報をご入力ください</p>
-        <p class="page-top-guidance-2">*マークは必須項目です</p>
+        <p class="page-top-guidence-1">アカウント情報をご入力ください</p>
+        <p class="page-top-guidence-2">*マークは必須項目です</p>
       </div>
       <div class="signin-info">
         <dl class="signin-info-item">
-          <dt class="signin-info-item-title">
-            <p>名前*</p>
-          </dt>
+          <dt class="signin-info-item-title">名前*</dt>
           <dd class="signin-info-item-input">
-            <label for="last-name" class="required">姓:<br></label><input type="text" id="last-name" name="last-name" required minlength="1" maxlength="144" size="10">
+            <label for="last-name" class="signin-info-item-input-textbox">姓:<br></label><input type="text" id="last-name" name="last-name" required minlength="1" maxlength="144" size="10">
           </dd>
           <dd class="signin-info-item-input">
-            <label for="first-name" class="required">名:<br></label><input type="text" id="first-name" name="first-name" required minlength="1" maxlength="144" size="10">
+            <label for="first-name" class="signin-info-item-input-textbox">名:<br></label><input type="text" id="first-name" name="first-name" required minlength="1" maxlength="144" size="10">
           </dd>
         </dl>
 
         <dl class="signin-info-item">
-          <dt class="signin-info-item-title">
-            <p>ナマエ</p>
-          </dt>
+          <dt class="signin-info-item-title">ナマエ</dt>
           <dd class="signin-info-item-input">
-            <label for="last-name-kana">セイ:<br></label><input type="text" id="last-name-kana" name="last-name-kana" minlength="1" maxlength="144" size="10">
+            <label for="last-name-kana" class="signin-info-item-input-textbox">セイ:<br></label><input type="text" id="last-name-kana" name="last-name-kana" minlength="1" maxlength="144" size="10">
           </dd>
           <dd class="signin-info-item-input">
-            <label for="first-name-kana">メイ:<br></label><input type="text" id="first-name-kana" name="first-name-kana" minlength="1" maxlength="144" size="10">
+            <label for="first-name-kana" class="signin-info-item-input-textbox">メイ:<br></label><input type="text" id="first-name-kana" name="first-name-kana" minlength="1" maxlength="144" size="10">
           </dd>
         </dl>
 
         <dl class="signin-info-item">
-          <dt class="signin-info-item-title">
-            <p>NAME*</p>
-          </dt>
+          <dt class="signin-info-item-title">NAME*</dt>
           <dd class="signin-info-item-input">
-            <label for="last-name-eng" class="required">Last Name:<br></label><input type="text" id="last-name-eng" name="last-name-eng" required minlength="1" maxlength="144" size="10">
+            <label for="last-name-eng" class="signin-info-item-input-textbox">Last:</label><input type="text" id="last-name-eng" name="last-name-eng" required minlength="1" maxlength="144" size="10">
           </dd>
           <dd class="signin-info-item-input">
-            <label for="first-name-eng" class="required">First Name:<br></label><input type="text" id="first-name-eng" name="first-name-eng" required minlength="1" maxlength="144" size="10">
+            <label for="first-name-eng" class="signin-info-item-input-textbox">First:</label><input type="text" id="first-name-eng" name="first-name-eng" required minlength="1" maxlength="144" size="10">
           </dd>
         </dl>
 
         <dl class="signin-info-item">
-          <dt class="signin-info-item-title">
-            <p>EMAIL*</p>
-          </dt>
+          <dt class="signin-info-item-title">EMAIL*</dt>
           <dd class="signin-info-item-input">
-            <label for="email" class="required"></label><input type="email" id="email" name="email" required minlength="1" maxlength="144" size="10">
+            <label for="email" class="signin-info-item-input-textbox"></label><input type="email" id="email" name="email" required minlength="1" maxlength="144" size="10">
           </dd>
         </dl>
 
         <dl class="signin-info-item">
-          <dt class="signin-info-item-title">
-            <p>TEL</p>
-          </dt>
+          <dt class="signin-info-item-title">TEL</dt>
           <dd class="signin-info-item-input">
-            <label for="tel"></label><input type="tel" id="tel" name="tel" minlength="1" maxlength="144" size="10">
+            <label for="tel" class="signin-info-item-input-textbox"></label><input type="tel" id="tel" name="tel" minlength="1" maxlength="144" size="10">
           </dd>
           <div class="input-caution">
             <p>- (ハイフン)不要です</p>
@@ -105,20 +76,16 @@
         </dl>
 
         <dl class="signin-info-item">
-          <dt class="signin-info-item-title">
-            <p>IMAGE</p>
-          </dt>
+          <dt class="signin-info-item-title">IMAGE</dt>
           <dd class="signin-info-item-input">
-            <label for="image"></label><img src="@@@" alt="account-picture" id="account-picture">
+            <label for="image" class="signin-info-item-input-textbox"></label><img src="@@@" alt="account-picture" id="account-picture">
           </dd>
         </dl>
 
         <dl class="signin-info-item">
-          <dt class="signin-info-item-title">
-            <p>PASSWORD*</p>
-          </dt>
+          <dt class="signin-info-item-title">PASSWORD*</dt>
           <dd class="signin-info-item-input">
-            <label for="pass" class="required"></label><input type="password" id="pass" name="pass" required minlength="1" maxlength="144" size="10">
+            <label for="pass" class="signin-info-item-input-textbox"></label><input type="password" id="pass" name="pass" required minlength="1" maxlength="144" size="10">
           </dd>
           <div class="input-caution">
             <p>英数字8文字以上 大文字 小文字が1つ以上必要です</p>
@@ -126,22 +93,18 @@
         </dl>
 
         <dl class="signin-info-item">
-          <dt class="signin-info-item-title">
-            <p>PASSWORD*<br>(confirm)</p>
-          </dt>
+          <dt class="signin-info-item-title">PASSWORD*<br>(confirm)</dt>
           <dd class="signin-info-item-input">
-            <label for="pass-again" class="required"></label><input type="password" id="pass-again" name="pass-again" required minlength="1" maxlength="144" size="10">
+            <label for="pass-again" class="signin-info-item-input-textbox"></label><input type="password" id="pass-again" name="pass-again" required minlength="1" maxlength="144" size="10">
           </dd>
           <div class="input-caution">
             <p>確認のため再度ご入力ください</p>
           </div>
         </dl>
 
-        <div class="get-back-bottun">
-          <input type="button" value="get-back">
-        </div>
-        <div class="submit-signin-info">
-          <input type="submit" value="GO CONFIRM">
+        <div class="buttons">
+          <input class="submit-signin-info" type="submit" value="Go Confirm">
+          <input class="get-back-button" type="button" value="Get Back">
         </div>
       </div>
     </form>
@@ -159,7 +122,7 @@
     -->
 </body>
 <footer>
-  <div class="bottom">
+  <div class="copy-right">
     <small>Copyright &copy;HITS! All Rights Reserved.</small>
   </div>
 </footer>
