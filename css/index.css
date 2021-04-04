@@ -2,6 +2,7 @@
   background-size: cover;
   background-color: #E2E2E2;
   min-height: 100vh;
+  height: auto;
   margin: 0;
 }
 
@@ -141,10 +142,11 @@ label {
   color: #011993;
 }
 
-.signin-info, .user-info {
+.signin-info, .user-info, .input-info {
   clear: left;
   margin: 2% 0 0 4%;
   min-height: 85vh;
+  height: auto;
   min-width: 80%;
 }
 
@@ -154,15 +156,28 @@ label {
   min-height: 6vh;
 }
 
-.signin-info-item-title, .sample-info-item-title{
+.signin-info-item-title, .sample-info-item-title {
   float: left;
-  min-width: 100px;
+  min-width: 90%;
+  max-width: 100%;
 }
 
 .signin-info-item-input, .sample-info-item-input {
   float: left;
   margin-right: 5%;
 }
+
+.sample-info-item-input-show {
+  float: left;
+  min-width: 13%;
+  margin-right: 5%;
+}
+
+.sample-info-item-input-data {
+  margin-right: 30%;
+  margin-left: 4vh;
+}
+
 
 .sample-info-item-input {
   width: 100%;
@@ -175,6 +190,17 @@ label {
 
 .sample-info-item-input-text {
   width: 250px;
+}
+
+.sample-info-item-input-show {
+  margin: 0 0 5px 4vh;
+  width: 100px;
+}
+
+.sample-info-item-input-show-detail {
+  float: right;
+  min-width: 60%;
+  margin-left: 4vh;
 }
 
 #proceed-update-date, #proceed-update-schedule, #proceed-estimated-shift-massproduction, #proceed-estimated-shift-massproduction, #relations-history-sharing-info {
@@ -190,6 +216,15 @@ label {
   float: left;
   margin-left: 4vh;
   min-width: 65px;
+}
+
+#sample-input-comment {
+  float: left;
+  margin-left: 4vh;
+  margin-bottom: 2vh;
+  width: 815px;
+  max-width: 90%;
+  height: 75px;
 }
 
 p {
@@ -214,6 +249,9 @@ p {
   width: 80%;
 }
 
+footer {
+  height: auto;
+}
 .copy-right {
   width: 100%;
   font-size: 10px;
